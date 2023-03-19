@@ -87,12 +87,16 @@ body {
     font-weight: 500;
 }
 
+.nav-button {
+    display: none;
+}
+
 .nav-link {
     color: #000;
 }
 
 .nav-link.active, .nav-link:hover {
-     color: white;
+     color:  #d0e4ff;
 }
 
 /*header content*/
@@ -112,11 +116,6 @@ body {
     line-height: 2;
 }
 
-.header-img {
-    max-width: 494px;
-    max-height: 613px;
-}
-
 .header-title {
     font-size: 44px;
     font-weight: 600;
@@ -132,6 +131,14 @@ body {
 .services-row {
     display: flex;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 0;
+    min-width: 315px;
+    text-align: center;
 }
 
 .service-card-img {
@@ -217,3 +224,5 @@ body {
 .contacts-footer {
     color: #9EADC2;
 }
+
+
